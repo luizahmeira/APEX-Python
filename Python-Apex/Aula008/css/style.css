@@ -1,0 +1,55 @@
+/* reset css */
+body, div, header, main, footer{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ccc;
+}
+header{
+    background: #000;
+    height: 90px;
+    width: 100%;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+header img, header nav{
+    margin: 0 20px;
+}
+header img{
+    width: 80px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    padding: 10px;
+}
+header nav ul li:hover{
+    background: #fff;    
+    cursor: pointer;
+}
+header nav ul li:hover a{
+    color:#000;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+main{
+    background: #fff;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background: #434242;
+    position: fixed;
+    bottom: 0;
+}
